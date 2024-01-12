@@ -1,0 +1,36 @@
+<%- include("../partials/head.ejs") %>
+<body class="detail__body">
+    <%- include("../partials/header.ejs") %>
+    <section class="detail__main__products">
+          <article class="detail__main__products__product">
+            <div class="detail__main__products__product__photo-container">
+              <img
+                class="detail__main__products__product__photo-container--photo"
+                src="/images/<%= product.imagen %>"
+                alt="<%= product.nombre %>"
+              />
+              <img
+                class="detail__main__products__product__photo-container--special"
+                src="/images/<%= product.sticker %>"
+                alt="Cartel de nuevo"
+              />
+              <a
+                class="detail__main__products__product__photo-container--zoom"
+                href="#"
+                >Ampliar foto</a
+              >
+            </div>
+            <h4><%= product.nombre %></h4>
+            <p>
+              <%= product.descripcion %>
+            </p>
+            <a
+              class="detail__main__products__product__photo-container--more"
+              href="/products/detail/<%= product.id %>"
+              >ver mas</a
+            >
+          </article>      
+    </section>
+    <%- include("../partials/footer.ejs") %>
+</body>
+</html>
