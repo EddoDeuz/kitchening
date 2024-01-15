@@ -1,0 +1,10 @@
+El usuario ingresó a la ruta: /products/delete/0eb284e7-05b9-47db-9591-543a883f27c5?_method=DELETE
+El usuario ingresó a la ruta: /products/dashboard
+El usuario ingresó a la ruta: /products/formCreate
+El usuario ingresó a la ruta: /products/create
+El usuario ingresó a la ruta: /products/dashboard
+El usuario ingresó a la ruta: /favicon.ico
+El usuario ingresó a la ruta: /
+El usuario ingresó a la ruta: /images/
+El usuario ingresó a la ruta: /images/
+El usuario ingresó a la ruta: /favicon.ico
